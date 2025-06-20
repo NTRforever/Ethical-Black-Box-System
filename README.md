@@ -909,49 +909,6 @@ ebb.records.clear()
 ebb.current_record_index = 0
 ```
 
-### 集成问题 / Integration Issues
-
-**Q: 如何集成到现有机器人系统？/ How to integrate with existing robot systems?**
-
-A: 集成步骤 / Integration steps:
-
-```python
-# 1. 导入EBB核心模块 / Import EBB core module
-from ebb_system import EBBCore
-
-# 2. 在机器人主程序中初始化 / Initialize in robot main program
-ebb = EBBCore(max_records=5000)
-
-# 3. 设置机器人信息 / Set robot information
-robot_info = {
-    'name': 'ProductionRobot001',
-    'version': '2.1.0',
-    'serial': 'PR001',
-    'manufacturer': 'YourCompany',
-    'operator': 'Production Team',
-    'responsible': 'John Doe +1-555-0123'
-}
-ebb.create_meta_data_record(robot_info)
-
-# 4. 在主循环中记录数据 / Record data in main loop
-def robot_main_loop():
-    while robot_running:
-        # 获取真实传感器数据 / Get real sensor data
-        sensor_data = robot.get_all_sensors()
-        actuator_data = robot.get_actuator_states()
-        decision_data = robot.get_last_decision()
-        
-        # 记录到EBB / Record to EBB
-        ebb.add_robot_data_record(sensor_data, actuator_data, decision_data)
-        
-        # 定期导出数据 / Periodic data export
-        if should_backup():
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            ebb.export_records(f"robot_data_{timestamp}.ebb")
-        
-        time.sleep(0.1)  # 100ms循环 / 100ms loop
-```
-
 ### 获取帮助 / Getting Help
 
 如果以上FAQ没有解决您的问题 / If the above FAQ doesn't solve your problem:
@@ -1011,15 +968,6 @@ SOFTWARE.
 ---
 
 ## 🌟 致谢 / Acknowledgments
-
-感谢所有为此项目做出贡献的开发者和用户！/ Thanks to all developers and users who contributed to this project!
-
-### 核心贡献者 / Core Contributors
-
-- **项目发起人 Project Initiator**: [@NTRforever](https://github.com/NTRforever)
-- **主要开发者 Main Developer**: [@NTRforever](https://github.com/NTRforever)
-- **系统架构师 System Architect**: EBB Development Team
-- **文档维护 Documentation Maintainer**: EBB Development Team
 
 ### 特别感谢 / Special Thanks
 
@@ -1131,17 +1079,15 @@ These groundbreaking studies provide important theoretical foundations and techn
 ### 社区 / Community
 
 - 🌐 **官方网站 Official Website**: [项目主页 Project Home](https://github.com/NTRforever/Ethical-Black-Box-System)
-- 📧 **邮件列表 Mailing List**: [联系我们 Contact Us](mailto:ntr@example.com)
 - 📱 **技术交流 Technical Discussion**: [GitHub Discussions](https://github.com/NTRforever/Ethical-Black-Box-System/discussions)
 - 💼 **项目支持 Project Support**: [GitHub Issues](https://github.com/NTRforever/Ethical-Black-Box-System/issues)
 
 ### 项目支持 / Project Support
 
-如果您需要技术支持、功能建议或合作机会 / If you need technical support, feature suggestions or collaboration opportunities:
+如果您需要技术支持、功能建议 / If you need technical support, feature suggestions :
 
 - 📧 **技术咨询 Technical Consultation**: [GitHub Issues](https://github.com/NTRforever/Ethical-Black-Box-System/issues)
 - 💬 **功能讨论 Feature Discussion**: [GitHub Discussions](https://github.com/NTRforever/Ethical-Black-Box-System/discussions)
-- 🤝 **合作机会 Collaboration**: 通过GitHub联系项目维护者 / Contact project maintainers via GitHub
 
 ---
 
