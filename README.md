@@ -143,28 +143,11 @@ source ebb_env/bin/activate
 pip install -r requirements.txt
 
 # 运行程序 / Run program
-python main.py
+python main_CN.py
+python main_EN.py
 ```
 
-#### 方法2: 使用pip安装 / Method 2: Install using pip
 
-```bash
-# 从PyPI安装（计划中）/ Install from PyPI (planned)
-pip install ebb-system
-
-# 运行 / Run
-ebb-system
-```
-
-#### 方法3: Docker部署 / Method 3: Docker Deployment
-
-```bash
-# 构建镜像 / Build image
-docker build -t ethical-black-box-system .
-
-# 运行容器 / Run container
-docker run -p 8080:8080 ethical-black-box-system
-```
 
 ### 依赖文件 / Dependencies (requirements.txt)
 
