@@ -13,7 +13,7 @@
 
 A comprehensive EBB (Ethical Black Box) system for recording, monitoring, and analyzing robot behavioral data, ensuring traceability and ethical compliance of robot behaviors.
 
-[中文文档](#-目录) | [English Documentation](#-table-of-contents) | [演示视频 Demo](docs/demo.md) | [在线文档 Online Docs](docs/) | [更新日志 Changelog](CHANGELOG.md)
+
 
 ---
 
