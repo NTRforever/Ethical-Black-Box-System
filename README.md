@@ -91,20 +91,21 @@ cd Ethical-Black-Box-System
 pip install -r requirements.txt
 
 # 3. 运行系统 / Run system
-python main.py
+python main_EN.py
+python main_CN.py
 ```
 
 ### 基本使用流程 / Basic Usage Flow
 
 #### 中文 / Chinese
-1. **启动程序** - 运行 `main.py`
+1. **启动程序** - 运行 `main_CN.py`
 2. **设置机器人信息** - 在"系统设置"选项卡中配置机器人基本信息
 3. **启动模拟器** - 在"机器人模拟器"选项卡中启动数据模拟
 4. **开始记录** - 在"系统状态"选项卡中开始自动数据记录
 5. **查看数据** - 在"数据查看"选项卡中查看记录的数据
 
 #### English
-1. **Start Program** - Run `main.py`
+1. **Start Program** - Run `main_EN.py`
 2. **Configure Robot Info** - Set robot basic information in "System Settings" tab
 3. **Start Simulator** - Launch data simulation in "Robot Simulator" tab
 4. **Begin Recording** - Start automatic data recording in "System Status" tab
@@ -123,7 +124,7 @@ python main.py
 
 ### 详细安装步骤 / Detailed Installation Steps
 
-#### 方法1: 从源码安装（推荐）/ Method 1: Install from Source (Recommended)
+####  从源码安装（推荐）/  Install from Source (Recommended)
 
 ```bash
 # 克隆仓库 / Clone repository
