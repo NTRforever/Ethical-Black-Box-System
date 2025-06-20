@@ -19,6 +19,13 @@ A comprehensive EBB (Ethical Black Box) system based on groundbreaking research 
 
 **🎓 Academic Foundation**: This system implementation is based on peer-reviewed research papers published by Winfield et al. at TAROS 2017 and arXiv 2022.
 
+**📊 项目状态 Project Status**: 
+- 🚀 **活跃开发中** Active Development
+- 📈 **功能完整** Feature Complete  
+- 🧪 **测试验证** Tested & Validated
+- 📚 **完整文档** Well Documented
+
+
 
 ---
 
@@ -77,8 +84,8 @@ A comprehensive EBB (Ethical Black Box) system based on groundbreaking research 
 
 ```bash
 # 1. 克隆仓库 / Clone repository
-git clone https://github.com/your-username/ebb-system.git
-cd ebb-system
+git clone https://github.com/NTRforever/Ethical-Black-Box-System.git
+cd Ethical-Black-Box-System
 
 # 2. 安装依赖 / Install dependencies
 pip install -r requirements.txt
@@ -120,8 +127,8 @@ python main.py
 
 ```bash
 # 克隆仓库 / Clone repository
-git clone https://github.com/your-username/ebb-system.git
-cd ebb-system
+git clone https://github.com/NTRforever/Ethical-Black-Box-System.git
+cd Ethical-Black-Box-System
 
 # 创建虚拟环境 / Create virtual environment
 python -m venv ebb_env
@@ -153,10 +160,10 @@ ebb-system
 
 ```bash
 # 构建镜像 / Build image
-docker build -t ebb-system .
+docker build -t ethical-black-box-system .
 
 # 运行容器 / Run container
-docker run -p 8080:8080 ebb-system
+docker run -p 8080:8080 ethical-black-box-system
 ```
 
 ### 依赖文件 / Dependencies (requirements.txt)
@@ -680,11 +687,11 @@ def validate_record(record_string: str) -> bool:
 # Fork 这个仓库到你的GitHub账号 / Fork this repository to your GitHub account
 # 然后clone你的fork / Then clone your fork
 
-git clone https://github.com/your-username/ebb-system.git
-cd ebb-system
+git clone https://github.com/your-username/Ethical-Black-Box-System.git
+cd Ethical-Black-Box-System
 
 # 添加上游仓库 / Add upstream repository
-git remote add upstream https://github.com/original-owner/ebb-system.git
+git remote add upstream https://github.com/NTRforever/Ethical-Black-Box-System.git
 ```
 
 #### 2. 创建开发分支 / Create Development Branch
@@ -984,8 +991,8 @@ except Exception as e:
     traceback.print_exc()
 ```
 
-3. **提交Issue / Submit Issue**: 在GitHub上创建新的Issue / Create new Issue on GitHub
-4. **联系支持 / Contact Support**: 发送邮件至 / Send email to support@ebb-system.com
+3. **提交Issue / Submit Issue**: 在GitHub上创建新的Issue / Create new Issue on GitHub: https://github.com/NTRforever/Ethical-Black-Box-System/issues/new
+4. **联系支持 / Contact Support**: 通过GitHub Discussions联系 / Contact via GitHub Discussions: https://github.com/NTRforever/Ethical-Black-Box-System/discussions
 
 ---
 
@@ -1025,10 +1032,10 @@ SOFTWARE.
 
 ### 核心贡献者 / Core Contributors
 
-- **项目发起人 Project Initiator**: [@your-username](https://github.com/your-username)
-- **主要开发者 Main Developer**: [@contributor1](https://github.com/contributor1)
-- **UI设计 UI Designer**: [@designer](https://github.com/designer)
-- **文档维护 Documentation Maintainer**: [@doc-maintainer](https://github.com/doc-maintainer)
+- **项目发起人 Project Initiator**: [@NTRforever](https://github.com/NTRforever)
+- **主要开发者 Main Developer**: [@NTRforever](https://github.com/NTRforever)
+- **系统架构师 System Architect**: EBB Development Team
+- **文档维护 Documentation Maintainer**: EBB Development Team
 
 ### 特别感谢 / Special Thanks
 
@@ -1046,7 +1053,7 @@ SOFTWARE.
   title={EBB Ethical Black Box System: Implementation of Academic Standards},
   author={EBB System Contributors},
   year={2025},
-  url={https://github.com/your-username/ebb-system},
+  url={https://github.com/NTRforever/Ethical-Black-Box-System},
   version={1.0.0},
   note={Implementation based on Winfield et al. open standard specifications}
 }
@@ -1132,25 +1139,25 @@ These groundbreaking studies provide important theoretical foundations and techn
 
 ### 获取帮助 / Getting Help
 
-- 📖 **文档 Documentation**: [在线文档 Online Docs](https://ebb-system.readthedocs.io/)
-- 💬 **讨论 Discussions**: [GitHub Discussions](https://github.com/your-username/ebb-system/discussions)
-- 🐛 **Bug报告 Bug Reports**: [GitHub Issues](https://github.com/your-username/ebb-system/issues)
-- 💡 **功能请求 Feature Requests**: [Feature Requests](https://github.com/your-username/ebb-system/issues/new?template=feature_request.md)
+- 📖 **文档 Documentation**: [在线文档 Online Docs](https://ntrforever.github.io/Ethical-Black-Box-System/)
+- 💬 **讨论 Discussions**: [GitHub Discussions](https://github.com/NTRforever/Ethical-Black-Box-System/discussions)
+- 🐛 **Bug报告 Bug Reports**: [GitHub Issues](https://github.com/NTRforever/Ethical-Black-Box-System/issues)
+- 💡 **功能请求 Feature Requests**: [GitHub Issues](https://github.com/NTRforever/Ethical-Black-Box-System/issues/new?assignees=&labels=enhancement&template=feature_request.md)
 
 ### 社区 / Community
 
-- 🌐 **官方网站 Official Website**: [www.ebb-system.com](https://www.ebb-system.com)
-- 📧 **邮件列表 Mailing List**: [subscribe](mailto:subscribe@ebb-system.com)
-- 📱 **微信群 WeChat Group**: 扫描二维码加入技术交流群 / Scan QR code to join technical discussion group
-- 💼 **企业支持 Enterprise Support**: enterprise@ebb-system.com
+- 🌐 **官方网站 Official Website**: [项目主页 Project Home](https://github.com/NTRforever/Ethical-Black-Box-System)
+- 📧 **邮件列表 Mailing List**: [联系我们 Contact Us](mailto:ntr@example.com)
+- 📱 **技术交流 Technical Discussion**: [GitHub Discussions](https://github.com/NTRforever/Ethical-Black-Box-System/discussions)
+- 💼 **项目支持 Project Support**: [GitHub Issues](https://github.com/NTRforever/Ethical-Black-Box-System/issues)
 
-### 商业支持 / Commercial Support
+### 项目支持 / Project Support
 
-如果您需要企业级支持、定制开发或咨询服务 / If you need enterprise support, custom development or consulting services:
+如果您需要技术支持、功能建议或合作机会 / If you need technical support, feature suggestions or collaboration opportunities:
 
-- 📧 **商务合作 Business Cooperation**: business@ebb-system.com
-- 📞 **技术支持 Technical Support**: +86-400-xxx-xxxx
-- 🏢 **公司地址 Company Address**: 北京市海淀区中关村大街XX号 / Beijing Haidian District Zhongguancun Street XX
+- 📧 **技术咨询 Technical Consultation**: [GitHub Issues](https://github.com/NTRforever/Ethical-Black-Box-System/issues)
+- 💬 **功能讨论 Feature Discussion**: [GitHub Discussions](https://github.com/NTRforever/Ethical-Black-Box-System/discussions)
+- 🤝 **合作机会 Collaboration**: 通过GitHub联系项目维护者 / Contact project maintainers via GitHub
 
 ---
 
@@ -1160,8 +1167,8 @@ These groundbreaking studies provide important theoretical foundations and techn
 
 Made with ❤️ by EBB System Contributors
 
-[![GitHub stars](https://img.shields.io/github/stars/your-username/ebb-system.svg?style=social&label=Star)](https://github.com/your-username/ebb-system)
-[![GitHub forks](https://img.shields.io/github/forks/your-username/ebb-system.svg?style=social&label=Fork)](https://github.com/your-username/ebb-system)
-[![GitHub watchers](https://img.shields.io/github/watchers/your-username/ebb-system.svg?style=social&label=Watch)](https://github.com/your-username/ebb-system)
+[![GitHub stars](https://img.shields.io/github/stars/NTRforever/Ethical-Black-Box-System.svg?style=social&label=Star)](https://github.com/NTRforever/Ethical-Black-Box-System)
+[![GitHub forks](https://img.shields.io/github/forks/NTRforever/Ethical-Black-Box-System.svg?style=social&label=Fork)](https://github.com/NTRforever/Ethical-Black-Box-System/fork)
+[![GitHub watchers](https://img.shields.io/github/watchers/NTRforever/Ethical-Black-Box-System.svg?style=social&label=Watch)](https://github.com/NTRforever/Ethical-Black-Box-System/watchers)
 
 </div>
